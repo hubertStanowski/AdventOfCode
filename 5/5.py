@@ -4,7 +4,9 @@ import sys
 
 """
 code mostly by: https://www.reddit.com/user/4HbQ/
-my approach didn't work on the scale of input
+my approach didn't work on the scale of input,
+learned about reduce today
+https://www.geeksforgeeks.org/reduce-in-python/
 """
 
 seeds, * \
