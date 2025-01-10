@@ -1,4 +1,5 @@
 import os
+import math
 from collections import deque
 from collections import defaultdict
 
@@ -10,7 +11,7 @@ def load_data():
     data = []
     with open(input_path) as f:
         for line in f.read().split('\n'):
-            data.append(line)
+            data.append(list(line))
 
     return data
 
